@@ -1,9 +1,10 @@
 module github.com/loicalleyne/ducksoup
 
-go 1.23.2
+go 1.24.0
 
 require (
 	github.com/apache/arrow-go/v18 v18.0.0
+	github.com/brianvoe/gofakeit/v7 v7.1.2
 	github.com/loicalleyne/bodkin v0.3.4
 	github.com/marcboeker/go-duckdb v1.8.3
 )
@@ -12,8 +13,6 @@ require (
 	github.com/andybalholm/brotli v1.1.1 // indirect
 	github.com/apache/thrift v0.21.0 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
-	github.com/brianvoe/gofakeit v3.18.0+incompatible // indirect
-	github.com/brianvoe/gofakeit/v7 v7.1.2 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
